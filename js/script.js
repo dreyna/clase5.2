@@ -38,4 +38,15 @@ function calcular(){
     +"<ul><li> La suma cuadrados :"+sc+"</li></ul>"
     +"<ul><li> El promedio :"+p+"</li></ul>";
 }
+var nombres = document.getElementById("nombres");
+var escuela = document.getElementById("escuela");
+var ciclo = document.getElementById("ciclo");
+var correo = document.getElementById("correo");
 
+function agregar(){
+    resp.innerHTML= ""
+    +"<ul><li> Nombres :"+nombres.value+"</li></ul>"
+    +"<ul><li> Escuela :"+escuela.value+"</li></ul>"
+    +"<ul><li> Ciclo :"+ciclo.value+"</li></ul>"
+    +"<ul><li> Correo :"+correo.value+"</li></ul>";
+}
